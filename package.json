@@ -1,0 +1,25 @@
+{
+  "name": "sportsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronwarman/sportsapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronwarman/sportsapp/issues"
+  },
+  "homepage": "https://github.com/aaronwarman/sportsapp#readme",
+  "dependencies": {
+    "q": "^1.4.1",
+    "request-promise": "^3.0.0",
+    "util": "^0.10.3"
+  }
+}
