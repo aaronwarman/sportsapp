@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/aaronwarman/sportsapp#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "node-sass-middleware": "^0.9.8",
+    "pug": "^2.0.0-beta3",
     "q": "^1.4.1",
     "request-promise": "^3.0.0",
     "util": "^0.10.3"
