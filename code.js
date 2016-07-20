@@ -29,14 +29,14 @@ function getSingle (stattleship, sport, league, season, team, date) {
   return stattleship.games(sport, league, getOptions(league, season, team, date));
 };
 
-getGames(stattleship, 'baseball', 'mlb', '2016', ['was','min']).then(function(games) {
+getGames(stattleship, 'baseball', 'mlb', '2016', ['was','nym'], 'today').then(function(games) {
   games.forEach(function(element) {
     element.map(function(element) {
       console.log(element.name) });
   });
 });
 
-getGames(stattleship, 'baseball', 'mlb', '2016', 'nyy').then(function(games) {
+getGames(stattleship, 'baseball', 'mlb', '2016', 'nyy', 'today').then(function(games) {
   games.forEach(function(element) {
     console.log(element.name);
   });
